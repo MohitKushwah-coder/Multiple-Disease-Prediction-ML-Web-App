@@ -147,7 +147,7 @@ if (selected == 'Brain Stroke Prediction'):
     with col2:
         ever_married = st.text_input('Ever Married (1 = Yes, 0 = No)')
     with col3:
-        work_type = st.text_input('Work Type (0 = Gov-Job, 1 = Never-Worked, 2 = Private, 3 = Self-Emp, 4 = Children)') 
+        work_type = st.text_input('Work Type (0 = Gov, 1 = Never-Worked, 2 = Private, 3 = Self, 4 = Child)') 
     with col1:
         Residence_type = st.text_input('Residence Type (1 = Urban, 0 = Rural)')
     with col2:
